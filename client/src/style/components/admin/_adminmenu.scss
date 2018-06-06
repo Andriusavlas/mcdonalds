@@ -1,0 +1,70 @@
+.admin-menu{
+    float:right;
+    width:80%;
+    ul{
+        display:flex;
+        background:lighten($color-red, 10%);
+        justify-content:space-around;
+        li{
+            font-size:20px;
+            font-weight:300;
+            padding:15px 0;
+            text-transform:capitalize;
+            transition:0.2s;
+            cursor:pointer;
+            user-select:none;
+            flex:1;
+        }
+        .active-cat{
+            background:white;
+            color:$color-red;
+        }
+    }
+    .menu-admin{
+        padding-top:10px;
+        max-height:100vh;
+        display:flex;
+        justify-content:space-around;
+        flex-wrap:wrap;
+        overflow-y:scroll;
+        .menu-admin-item{
+            padding:5px;
+            width:30%;
+            border:1px solid $color-red;
+            border-radius:3px;
+            margin-bottom:10px;
+            display:flex;
+            flex-direction:column;
+            img{
+                width:60%;
+                margin:auto;
+            }
+        }
+    }
+    h5{
+        color:$color-red;
+        user-select:none;
+        cursor:pointer;
+    }
+    input{
+        display:block;
+        margin:auto;
+        margin-top:20px;
+        border:1px solid $color-red;
+        border-radius:3px;
+        width:30%;
+        &::placeholder{
+            padding-left:5px;
+        }
+    }
+    button{
+        margin-top:20px;
+        background:$color-red;
+        color:white;
+        border-radius:3px;
+        border:1px solid $color-red;
+        width:30%;
+        user-select:none;
+        cursor:pointer;
+    }
+}

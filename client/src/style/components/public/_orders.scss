@@ -1,0 +1,15 @@
+.orders{
+    padding-top:10px;
+    position:absolute;
+    bottom:0;
+    right:0;
+    height:80px;
+    width:80%;
+    border-top:2px solid $color-red;
+    box-sizing:border-box;
+    display:flex;
+    overflow-x:scroll;
+    .order{
+        width:10%;
+    }
+}

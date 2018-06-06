@@ -1,0 +1,8 @@
+Name: Andrius 
+address: Pasilaiciu 1 
+phone: 867051194 
+Order: 
+McNuggets 20pcs - 6.7 
+McNuggets 20pcs - 6.7 
+Apple Pie - 1.1 
+Sprite - 1.6 

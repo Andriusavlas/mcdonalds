@@ -1,0 +1,29 @@
+.menu{
+    padding-top:10px;
+    float:right;
+    width:80%;
+    max-height:calc(100vh - 80px);
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    overflow-y:scroll;
+    .menu-item{
+        padding:5px;
+        width:30%;
+        border:1px solid $color-red;
+        border-radius:3px;
+        user-select:none;
+        cursor:pointer;
+        margin-bottom:10px;
+        display:flex;
+        flex-direction:column;
+        &:hover{
+            background-color:$color-red;
+            color:white;
+        }
+        img{
+            width:60%;
+            margin:auto;
+        }
+    }
+}

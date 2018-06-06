@@ -1,0 +1,74 @@
+.checkout{
+    .order{
+        margin-top:100px;
+        margin-bottom:20px;
+        h1{
+            font-size:28px;
+            color:$color-red;
+            margin-bottom:10px;
+        }
+        .order-item{
+            margin-bottom:10px;
+            span{
+                margin-left:20px;
+                user-select:none;
+                cursor:pointer;
+                color:$color-red;
+            }
+        }
+    }
+    .wrapper{
+        max-width:300px;
+        margin:auto;
+        .back, .total{
+            display:inline-block;
+            margin-bottom:15px;
+            padding:5px 10px;
+            border-radius:5px;
+        }
+        .back{
+            float:left;
+            user-select:none;
+            cursor:pointer;
+            border:1px solid $color-red;
+        }
+        .total{
+            float:right;
+            border:1px solid $color-green;
+        }
+        input{
+            border:1px solid $color-green;
+            height:22px;
+            display:block;
+            margin:auto;
+            margin-bottom:5px;
+            width:100%;
+            &::placeholder{
+                text-align:center;
+            }
+        }
+        .submit{
+            width:50%;
+            background-color:$color-green;
+            color:white;
+            margin:auto;
+            padding:10px;
+            user-select:none;
+            cursor:pointer;
+            border-radius:5px;
+            border:none;
+            font-size:100%;
+            margin-top:5px;
+        }
+    }
+    .clear{
+        display:inline-block;
+        margin-top:10px;
+        padding:10px 15px;
+        color:white;
+        background-color:$color-red;
+        user-select:none;
+        cursor:pointer;
+        border-radius:5px;
+    }
+}
